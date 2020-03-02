@@ -128,7 +128,6 @@ body {
     width: 60%;
     margin: auto;
     padding: 15px;
-    padding-bottom: 40px;
 }
 
 #projectText a {
@@ -136,11 +135,10 @@ body {
     width: 60%;
     margin: auto;
     padding: 15px;
-    padding-left: 30px;
     text-decoration: none;
     background-color: #625757;
     color: #6ad4b1;
-    padding: 5px;
+    padding: 10px;
 }
 
 #Nav {
@@ -165,6 +163,10 @@ body {
     right: 0;
     z-index: 10;
     text-decoration: none;
+}
+
+#centerLastLink {
+    padding-bottom: 100px;
 }
 
 @media screen and (min-width: 320px) {
