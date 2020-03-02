@@ -6,30 +6,6 @@ body {
     text-align: center;
 }
 
-#Nav {
-    color: #1f3a93;
-    font-weight: 600;
-    background-color:  #00FA9A;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    text-decoration: none;
-}
-
-#footer {
-    color: #1f3a93;
-    font-weight: 600;
-    background-color:  #00FA9A;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    text-decoration: none;
-}
-
 #githubprofile {
     text-decoration: none;
     background-color: #625757;
@@ -160,6 +136,30 @@ body {
     background-color: #625757;
     color: #6ad4b1;
     padding: 5px;
+}
+
+#Nav {
+    color: #1f3a93;
+    font-weight: 600;
+    background-color:  #00FA9A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    text-decoration: none;
+}
+
+#footer {
+    color: #1f3a93;
+    font-weight: 600;
+    background-color:  #00FA9A;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 320px) {
