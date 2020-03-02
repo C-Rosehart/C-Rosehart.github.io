@@ -134,11 +134,10 @@ body {
     text-align: center;
     width: 60%;
     margin: auto;
-    padding: 15px;
     text-decoration: none;
     background-color: #625757;
     color: #6ad4b1;
-    padding: 10px;
+    margin-bottom: 300px;
 }
 
 #Nav {
