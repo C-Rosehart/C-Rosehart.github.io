@@ -1,0 +1,194 @@
+body {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.3em;
+    color: #6ad4b1;
+    background-color: #3b3b3b;
+    text-align: center;
+}
+
+#Nav {
+    color: #1f3a93;
+    font-weight: 600;
+    background-color:  #00FA9A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+#footer {
+    color: #1f3a93;
+    font-weight: 600;
+    background-color:  #00FA9A;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+#githubprofile {
+    text-decoration: none;
+    background-color: #625757;
+    color: #6ad4b1;
+    padding: 5px;
+}
+
+#linkedin {
+    text-decoration: none;
+    background-color: #625757;
+    color: #6ad4b1;
+    padding: 5px;
+}
+
+#email {
+    text-decoration: none;
+    background-color: #625757;
+    color: #6ad4b1;
+    padding: 5px;
+}
+
+#phoneNumber {
+    text-decoration: none;
+    background-color: #625757;
+    color: #6ad4b1;
+    padding: 5px;
+}
+
+#bio {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+#title {    
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 45px;
+}
+
+#headline {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+#contactInfo {
+    font-size: 2em;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+#name {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+}
+
+#link {
+    color: #f2a127;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+#phoneNumber {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+}
+
+#projectText {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+#bioExtended {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+#skills {
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#projects {
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#projectText h3 {
+    padding-top: 30px;
+}
+
+#projectParagraph {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+#projectText a {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    padding-left: 30px;
+    text-decoration: none;
+    background-color: #625757;
+    color: #6ad4b1;
+    padding: 5px;
+}
+
+@media screen and (min-width: 320px) {
+    #listOfSkills {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-column: auto;
+        width: 60%;
+        margin: auto;
+        padding: 55px;
+    }   
+}
+
+@media screen and (min-width: 768px) {
+    #listOfSkills {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-column: auto;
+        width: 60%;
+        margin: auto;
+        padding: 15px;
+    }   
+}
+
+@media screen and (min-width: 1024px) {
+    #listOfSkills {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-column: auto;
+        width: 60%;
+        margin: auto;
+        padding: 15px;
+    }   
+}
