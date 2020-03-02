@@ -1,2 +1,2 @@
 # Rosehart-Portfolio
-C-Rosehart.github.io
+https://c-rosehart.github.io/
