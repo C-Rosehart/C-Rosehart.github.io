@@ -94,6 +94,7 @@ body {
     width: 60%;
     margin: auto;
     padding: 15px;
+    padding-bottom: 100px;
 }
 
 #bioExtended {
@@ -133,11 +134,11 @@ body {
 #projectText a {
     text-align: center;
     width: 60%;
-    margin: auto;
     text-decoration: none;
     background-color: #625757;
+    margin-right: 5px;
+    margin-left: 5px;
     color: #6ad4b1;
-    margin-bottom: 300px;
 }
 
 #Nav {
@@ -164,9 +165,9 @@ body {
     text-decoration: none;
 }
 
-#centerLastLink {
-    margin-bottom: 100px;
-}
+/* #centerLastLink {
+    margin-right: 7px;
+} */
 
 @media screen and (min-width: 320px) {
     #listOfSkills {
