@@ -166,7 +166,7 @@ body {
 }
 
 #centerLastLink {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 @media screen and (min-width: 320px) {
