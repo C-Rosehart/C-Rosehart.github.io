@@ -45,6 +45,13 @@ body {
     padding: 15px;
 }
 
+#bio2nd {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
 #title {    
     text-align: center;
     width: 60%;
@@ -124,7 +131,35 @@ body {
     padding-top: 30px;
 }
 
-#projectParagraph {
+#projectParagraph1 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+#projectParagraph2 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+#projectParagraph3 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+#projectParagraph4 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+#projectParagraph5 {
     text-align: center;
     width: 60%;
     margin: auto;
