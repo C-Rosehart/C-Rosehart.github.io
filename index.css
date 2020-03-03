@@ -165,10 +165,6 @@ body {
     text-decoration: none;
 }
 
-/* #centerLastLink {
-    margin-right: 7px;
-} */
-
 @media screen and (min-width: 320px) {
     #listOfSkills {
         display: grid;
@@ -177,6 +173,17 @@ body {
         width: 60%;
         margin: auto;
         padding: 55px;
+    }   
+}
+
+@media screen and (min-width: 480px) {
+    #listOfSkills {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-column: auto;
+        width: 60%;
+        margin: auto;
+        padding: 15px;
     }   
 }
 
