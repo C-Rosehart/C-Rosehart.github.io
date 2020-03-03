@@ -4,5 +4,4 @@
 ## Screenshots:
 
 ![Top of Portfolio](/images/portfolioscreenshotmain.png)
-![Top of Portfolio 780 pixels](/images/portfolioscreenshotmain780.png)
 ![Portfolio Projects](/images/portfolioscreenshotprojects.png)
