@@ -8,92 +8,76 @@ body {
     color: #6ad4b1;
     background-color: #3b3b3b;
     text-align: center;
+    padding-bottom: 100px;
 }
 
-#githubprofile {
+.githubprofile {
     text-decoration: none;
     background-color: #193E27;
     color: #88DDC1;
     padding: 5px;
 }
 
-#linkedin {
+.linkedin {
     text-decoration: none;
     background-color: #193E27;
     color: #88DDC1;
     padding: 5px;
 }
 
-#email {
+.email {
     text-decoration: none;
     background-color: #193E27;
     color: #88DDC1;
     padding: 5px;
 }
 
-#phoneNumber {
-    text-decoration: none;
-    background-color: #193E27;
-    color: #88DDC1;
-    padding: 5px;
+.biocontainer {
+    padding-top: 30px;
+    margin: auto;
+    text-align: left;
+    border: solid 1px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #2F7604;
 }
 
-#bio {
-    text-align: center;
-    width: 60%;
+.headline {
     margin: auto;
     padding: 15px;
 }
 
-#bio2nd {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    padding: 15px;
-}
-#biotripled {
-    text-align: center;
-    width: 60%;
+.bio {
     margin: auto;
     padding: 15px;
 }
 
-#title {    
+.title {    
     text-align: center;
     width: 60%;
     margin: auto;
     padding: 45px;
 }
 
-#headline {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    padding: 15px;
-}
-
-#musicquizpic {
-    height: 220px;
-    width: 310px;
-}
-
-#contactInfo {
+.contactInfo {
     font-size: 2em;
-    text-align: center;
     width: 60%;
     margin: auto;
     padding: 15px;
+    padding-top: 30px;
 }
 
-#name {
+.name {
     text-align: center;
-    width: 60%;
+    width: 90%;
     margin: auto;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 30px;
+    border: solid 1px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #2F7604;
 }
 
-#link {
+.link {
     color: #f2a127;
     text-align: center;
     width: 60%;
@@ -101,88 +85,71 @@ body {
     padding: 15px;
 }
 
-#phoneNumber {
+.phoneNumber {
     text-align: center;
     width: 60%;
     margin: auto;
+    padding-bottom: 50px;
     padding: 5px;
+    text-decoration: none;
+    background-color: #193E27;
+    color: #88DDC1;
 }
 
-#projectText {
+.projectText {
     text-align: center;
-    width: 60%;
     margin: auto;
-    padding: 15px;
-    padding-bottom: 100px;
+    border: solid 1px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #2F7604;
 }
 
-#bioExtended {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    padding: 15px;
+.skillscontainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid 1px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #2F7604;
 }
 
-#skills {
-    width: 60%;
-    margin: auto;
-    padding: 15px;
-    text-align: center;
-    font-size: 2em;
-}
-
-#projects {
+.skills {
     width: 60%;
     margin: auto;
     padding: 15px;
     text-align: center;
     font-size: 2em;
-}
-
-#projectText h3 {
     padding-top: 30px;
 }
 
-#projectParagraph1 {
+.projects {
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.projecttitle {
+    margin-top: 70px;
+}
+
+.projectText h3 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.projectParagraph {
     text-align: center;
     width: 60%;
     margin: auto;
     padding: 15px;
 }
 
-#projectParagraph2 {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    padding: 15px;
-}
-
-#projectParagraph3 {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    padding: 15px;
-}
-
-#projectParagraph4 {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    padding: 15px;
-}
-
-#projectParagraph5 {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    padding: 15px;
-}
-
-#projectText a {
+.projectlinks {
     text-align: center;
     width: 60%;
     text-decoration: none;
-    margin: 5px;
+    margin: 15px;
     padding: 5px;
 }
 
@@ -195,7 +162,17 @@ a {
     box-shadow: 5px 5px 5px #2F7604;
 }
 
-#Nav {
+.navp {
+    display: inline;
+    color: #1f3a93;
+    background-color:  #00FA9A;
+    margin: 3px;
+}
+
+.Nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     color: #1f3a93;
     font-weight: 600;
     background-color:  #00FA9A;
@@ -207,7 +184,7 @@ a {
     text-decoration: none;
 }
 
-#footer {
+.footer {
     color: #1f3a93;
     font-weight: 600;
     background-color:  #00FA9A;
@@ -220,7 +197,7 @@ a {
     text-decoration: none;
 }
 
-#listOfSkills {
+.listOfSkills {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-column: auto;
@@ -229,8 +206,14 @@ a {
     padding: 55px;
 }  
 
+img {
+    width: 280px;
+    height: 220px;
+    margin: auto;
+}
+
 @media screen and (min-width: 375px) {
-    #listOfSkills {
+    .listOfSkills {
         display: grid;
         grid-template-columns: repeat(2, auto);
         grid-column: auto;
@@ -241,7 +224,7 @@ a {
 }
 
 @media screen and (min-width: 480px) {
-    #listOfSkills {
+    .listOfSkills {
         display: grid;
         grid-template-columns: repeat(3, auto);
         grid-column: auto;
@@ -249,7 +232,7 @@ a {
         margin: auto;
         padding: 15px;
     }  
-    #projectText a {
+    .projectText a {
         text-align: center;
         width: 60%;
         text-decoration: none;
@@ -259,7 +242,7 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-    #listOfSkills {
+    .listOfSkills {
         display: grid;
         grid-template-columns: repeat(3, auto);
         grid-column: auto;
@@ -270,7 +253,7 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
-    #listOfSkills {
+    .listOfSkills {
         display: grid;
         grid-template-columns: repeat(4, auto);
         grid-column: auto;
