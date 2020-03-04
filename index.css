@@ -96,6 +96,10 @@ body {
     color: #88DDC1;
 }
 
+#projects {
+    padding-top: 30px;
+}
+
 .projectText {
     text-align: center;
     margin: auto;
