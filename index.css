@@ -96,6 +96,11 @@ body {
     color: #88DDC1;
 }
 
+.projectdesc {
+    margin: auto;
+    padding: 15px;
+}
+
 #projects {
     padding-top: 30px;
 }
