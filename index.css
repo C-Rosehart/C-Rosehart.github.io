@@ -51,7 +51,7 @@ body {
     padding: 15px;
 }
 
-.title {    
+.title {
     text-align: center;
     width: 60%;
     margin: auto;
@@ -174,7 +174,7 @@ a {
 .navp {
     display: inline;
     color: #1f3a93;
-    background-color:  #00FA9A;
+    background-color: #00FA9A;
     margin: 3px;
 }
 
@@ -182,9 +182,9 @@ a {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: #1f3a93;
+    color: #931f1f;
     font-weight: 600;
-    background-color:  #00FA9A;
+    background-color: #00FA9A;
     position: fixed;
     top: 0;
     left: 0;
@@ -196,7 +196,7 @@ a {
 .footer {
     color: #1f3a93;
     font-weight: 600;
-    background-color:  #00FA9A;
+    background-color: #00FA9A;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -213,7 +213,7 @@ a {
     width: 60%;
     margin: auto;
     padding: 55px;
-}  
+}
 
 img {
     width: 280px;
@@ -229,7 +229,7 @@ img {
         width: 60%;
         margin: auto;
         padding: 55px;
-    }   
+    }
 }
 
 @media screen and (min-width: 480px) {
@@ -240,14 +240,15 @@ img {
         width: 60%;
         margin: auto;
         padding: 15px;
-    }  
+    }
+
     .projectText a {
         text-align: center;
         width: 60%;
         text-decoration: none;
         margin: 5px;
         padding: 5px;
-    } 
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -258,7 +259,7 @@ img {
         width: 60%;
         margin: auto;
         padding: 15px;
-    }   
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -269,5 +270,5 @@ img {
         width: 60%;
         margin: auto;
         padding: 15px;
-    }   
+    }
 }
